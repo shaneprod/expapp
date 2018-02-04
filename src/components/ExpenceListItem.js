@@ -21,3 +21,5 @@ const ExpenseListItem = ({dispatch, id, description, amount, createdAt}) => (
 
 
 export default ExpenseListItem;
+
+

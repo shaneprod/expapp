@@ -103,7 +103,7 @@ export default class ExpenseForm extends React.Component{
                         value={this.state.note}
                     >
                     </textarea>
-                    <button>Add Expense</button>
+                    <button className="btn">Add Expense</button>
                 </form>
             </div>
         )

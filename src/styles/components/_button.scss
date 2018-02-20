@@ -1,7 +1,7 @@
 .big-button{
-    background: $purple;
+    background: $blue;
     border: none;
-    border-bottom: 0.6rem solid darken($purple,10%);
+    border-bottom: 0.6rem solid darken($blue,10%);
     color: white;
     font-weight: bold;
     font-size: $l-size;
@@ -16,20 +16,38 @@
 }
 
 // Button
-.button{
-    background: $purple;
+.login-button{
+    background: $blue;
     border: none;
-    border-bottom: 0.3rem solid darken($purple,10%);
+    border-bottom: 0.3rem solid darken($blue,10%);
     color: white;
     font-weight: 500;
     padding: $s-size;
     margin: 0 0 $s-size 0;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+}
+
+
+.remove-button{
+    @extend .login-button;
+    width: 150px;
+    background: $light-grey;
+    border-bottom: 0.3rem solid darken($light-grey,10%);
+
+}
+
+
+.login-button:hover{
+    background: lighten($blue,10%);
+    border-bottom: 0.3rem solid lighten($blue,5%);
 }
 
 .button--link{
     background:  none;
     border: none;
-    color: $off-white;
+    color: white;
     padding: 0;
 }
 

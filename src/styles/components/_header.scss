@@ -1,20 +1,31 @@
 .header{
-    background: $off-black;
+    background: $dark_blue;
     color: white;
-    margin-bottom: $m-size;
+ 
     padding: $m-size 0
 
 
 }
 
+.page-header__actions{
+    margin-top: $m-size;
+
+}
+
 .header__title {
-    font-size: $s-size;
-    margin: 0;
+    color: white;
+    text-decoration: none;
+
     
+    margin: 0;
+    h1 {
+        font-size: 1.2em;
+        margin: 0;
+    }
 }
 
 .header__subtitle{
-    color: $off-white;
+    color: white;
     font-size: $m-size;
     font-weight: 500;
     margin: 0;
@@ -24,13 +35,10 @@
 
 @media (min-width: $desktop-breakpoint){
     .header{
- 
-        margin-bottom: $xl-size;
+  
  
     }
     .header__title {
-        font-size: $l-size;
-        margin: 0;
         
     }
 }
